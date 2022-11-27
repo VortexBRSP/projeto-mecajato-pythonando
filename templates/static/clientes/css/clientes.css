@@ -14,21 +14,24 @@
     margin: 0px;
 }
 
-.btn-add-carros {
-
+#btn-add-carros {
     background-color: var(--contrast-color);
     padding: 5px;
-    font-weight: bold;
+    border: none;
+    text-align: center;
+    color: white;
     cursor: pointer;
-
+    border-radius: 5px;
+    margin-bottom: 16px;
 }
 
 .btn-principal {
     color: white;
     border: none;
     background-color: var(--dark-color);
-    padding: 5px;
-    font-size: 30px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 #att_cliente {
